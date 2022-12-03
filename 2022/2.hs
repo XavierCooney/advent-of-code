@@ -1,5 +1,7 @@
 {-# OPTIONS_GHC -Wno-incomplete-patterns #-}
 import Framework
+import Data.List
+import Data.Maybe
 
 data Move = Rock | Paper | Scissors
 

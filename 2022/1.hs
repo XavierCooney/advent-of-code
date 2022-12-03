@@ -1,5 +1,7 @@
 {-# OPTIONS_GHC -Wno-incomplete-patterns #-}
 import Framework
+import Data.List
+import Data.Maybe
 
 splitElves l = case break null l of
     (s, []) -> [s]
