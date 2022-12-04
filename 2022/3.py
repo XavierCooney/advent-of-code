@@ -28,7 +28,6 @@ in_both = set(string.ascii_letters)
 
 t = 0
 for p, q, r in zip(s[::3], s[1::3], s[2::3]):
-
     x = set(p) & set(q) & set(r)
     assert len(x) == 1
     x = x.pop()
